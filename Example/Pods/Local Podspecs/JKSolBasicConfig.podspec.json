@@ -1,0 +1,27 @@
+{
+  "name": "JKSolBasicConfig",
+  "version": "0.1.0",
+  "summary": "A short description of JKSolBasicConfig.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jksol/JKSolBasicConfig",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jksol": "jksol.com"
+  },
+  "source": {
+    "git": "https://github.com/jksol/JKSolBasicConfig.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "JKSolBasicConfig/Classes/**/*",
+  "resource_bundles": {
+    "Resources": [
+      "JKSolBasicConfig/Assets/*.*"
+    ]
+  }
+}

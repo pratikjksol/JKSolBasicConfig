@@ -1,0 +1,16 @@
+PODS:
+  - JKSolBasicConfig (0.1.0)
+
+DEPENDENCIES:
+  - JKSolBasicConfig (from `../`)
+
+EXTERNAL SOURCES:
+  JKSolBasicConfig:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  JKSolBasicConfig: 14f9243ff159577c3474159b4900c3c12ea39359
+
+PODFILE CHECKSUM: 34157fe2b35a70811c4599e736fde8f596879018
+
+COCOAPODS: 1.13.0

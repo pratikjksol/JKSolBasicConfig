@@ -1,0 +1,6 @@
+framework module JKSolBasicConfig {
+  umbrella header "JKSolBasicConfig-umbrella.h"
+
+  export *
+  module * { export * }
+}

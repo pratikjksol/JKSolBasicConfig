@@ -7,12 +7,30 @@
 //
 
 import UIKit
+import JKSolBasicConfig
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        callFramworkMethod()
+        useFramworkImages()
+    }
+    
+    // MARK: - Methods
+    func callFramworkMethod() {
+        var logger = Logger()
+        logger.printLog()
+    }
+    
+    func useFramworkImages() {
+        // Using Framwork images by using bundle
+        let framworkBundle = Bundle(for: Logger.self)
+        let path = framworkBundle.path(forResource: "Resources", ofType: "bundle")
+        let resourceBundle = Bundle(url: URL.init(fileURLWithPath: path!))
+        let image = UIImage.init(named: "imgFlower.jpg", in: resourceBundle, compatibleWith: nil)
+        print(image)
     }
 
     override func didReceiveMemoryWarning() {
