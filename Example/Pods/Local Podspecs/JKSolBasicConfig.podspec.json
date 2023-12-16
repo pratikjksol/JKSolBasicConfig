@@ -1,6 +1,6 @@
 {
   "name": "JKSolBasicConfig",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "summary": "This is a meaningful summary of my pod",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/pratikjksol/JKSolBasicConfig",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/pratikjksol/JKSolBasicConfig",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "swift_versions": "5.0",
   "platforms": {

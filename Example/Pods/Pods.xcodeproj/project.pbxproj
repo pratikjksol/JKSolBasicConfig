@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		02FEC06CB8E53D9986D73F1BD292B0E8 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBEA040824689884EF4145EC892707B /* Logger.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		232BD7C45520BFC2EEC0371AD68C4B01 /* JKSolBasicConfig-Resources in Resources */ = {isa = PBXBuildFile; fileRef = D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* JKSolBasicConfig-Resources */; };
+		232BD7C45520BFC2EEC0371AD68C4B01 /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* Resources.bundle */; };
 		256511B9FCCB7F775CC2B8F074685DE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		482316C5EDF63A1E2703E703DB0CB1D6 /* JKSolBasicConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7875E48AB6E5E996C1FBAC298526FB2 /* JKSolBasicConfig-dummy.m */; };
 		6357E128872B938C885B57F3CCC2CF0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -74,7 +74,7 @@
 		B7E8016E0FEF65F099F1F6C59887C953 /* Pods-JKSolBasicConfig_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSolBasicConfig_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		D65385D51B5E3059DCE6341CC2083AD2 /* Pods-JKSolBasicConfig_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSolBasicConfig_Example-dummy.m"; sourceTree = "<group>"; };
 		D738737A27B34E9B97762BA8C708BD8B /* Pods-JKSolBasicConfig_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSolBasicConfig_Example-umbrella.h"; sourceTree = "<group>"; };
-		D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* JKSolBasicConfig-Resources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "JKSolBasicConfig-Resources"; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* Resources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9A8332F734675966AF6C41D85716C6C /* Pods-JKSolBasicConfig_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSolBasicConfig_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		DADABA251680F14BB3A2E7702E916F04 /* Pods-JKSolBasicConfig_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSolBasicConfig_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E35FA169872A93A42C95DFEEAF220060 /* Pods-JKSolBasicConfig_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSolBasicConfig_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,7 +124,7 @@
 			isa = PBXGroup;
 			children = (
 				10E29850D625CFC85633753C4375B9C3 /* JKSolBasicConfig.framework */,
-				D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* JKSolBasicConfig-Resources */,
+				D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* Resources.bundle */,
 				A7C31F1D4E29943C36C6D4D5AE1454F6 /* Pods_JKSolBasicConfig_Example.framework */,
 				F013B41F38119B7DE065EA0FD4AC1AC7 /* Pods_JKSolBasicConfig_Tests.framework */,
 			);
@@ -290,7 +290,7 @@
 			);
 			name = "JKSolBasicConfig-Resources";
 			productName = Resources;
-			productReference = D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* JKSolBasicConfig-Resources */;
+			productReference = D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* Resources.bundle */;
 			productType = "com.apple.product-type.bundle";
 		};
 		6469B5BA77C3518D54C8758F8519B3E3 /* Pods-JKSolBasicConfig_Tests */ = {
@@ -386,7 +386,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A936B8DE3F28397B1503B6478A277882 /* imgFlower.jpg in Resources */,
-				232BD7C45520BFC2EEC0371AD68C4B01 /* JKSolBasicConfig-Resources in Resources */,
+				232BD7C45520BFC2EEC0371AD68C4B01 /* Resources.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,7 +479,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JKSolBasicConfig";
 				IBSC_MODULE = JKSolBasicConfig;
 				INFOPLIST_FILE = "Target Support Files/JKSolBasicConfig/ResourceBundle-Resources-JKSolBasicConfig-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = Resources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -593,7 +593,7 @@
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JKSolBasicConfig";
 				IBSC_MODULE = JKSolBasicConfig;
 				INFOPLIST_FILE = "Target Support Files/JKSolBasicConfig/ResourceBundle-Resources-JKSolBasicConfig-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				PRODUCT_NAME = Resources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;

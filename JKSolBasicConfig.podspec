@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'JKSolBasicConfig'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'This is a meaningful summary of my pod'
 
 # This description is used to generate tags and improve search results.
@@ -24,7 +24,7 @@ TODO: Add long description of the pod here.
   s.homepage                = 'https://github.com/pratikjksol/JKSolBasicConfig'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
   s.author                  = { 'jksol' => 'jksol.com' }
-  s.source                  = { :git => 'https://github.com/pratikjksol/JKSolBasicConfig', :tag => '0.1.0'}
+  s.source                  = { :git => 'https://github.com/pratikjksol/JKSolBasicConfig', :tag => '1.0.0'}
   s.swift_versions          = '5.0'
   s.ios.deployment_target   = '12.0'
   s.platform                = :ios

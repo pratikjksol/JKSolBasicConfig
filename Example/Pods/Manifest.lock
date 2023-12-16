@@ -1,5 +1,5 @@
 PODS:
-  - JKSolBasicConfig (0.1.0)
+  - JKSolBasicConfig (1.0.0)
 
 DEPENDENCIES:
   - JKSolBasicConfig (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  JKSolBasicConfig: 480b167390951830a54340aeb7269a0c8b14a53b
+  JKSolBasicConfig: aada9080422ed2f1ad2b64c6c0b5b45e5ca510c3
 
 PODFILE CHECKSUM: 34157fe2b35a70811c4599e736fde8f596879018
 
