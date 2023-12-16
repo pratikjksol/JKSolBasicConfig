@@ -20,6 +20,7 @@ class ViewController: UIViewController {
     
     // MARK: - Methods
     func callFramworkMethod() {
+        // Print Logs
         var logger = Logger()
         logger.printLog()
     }
