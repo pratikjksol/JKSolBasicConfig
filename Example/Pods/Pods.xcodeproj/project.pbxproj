@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		16E37D5B926BEFBC6BC804FD84545242 /* JKSolBasicConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F3A18997FA1A4888FACE7621BA87189 /* JKSolBasicConfig-dummy.m */; };
+		02FEC06CB8E53D9986D73F1BD292B0E8 /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BBEA040824689884EF4145EC892707B /* Logger.swift */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		232BD7C45520BFC2EEC0371AD68C4B01 /* JKSolBasicConfig-Resources in Resources */ = {isa = PBXBuildFile; fileRef = D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* JKSolBasicConfig-Resources */; };
 		256511B9FCCB7F775CC2B8F074685DE4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		43E94CD29052CA24EAB369487F4FD3ED /* JKSolBasicConfig-Resources in Resources */ = {isa = PBXBuildFile; fileRef = D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* JKSolBasicConfig-Resources */; };
-		5C8B5171474FF7AFA8151D09C066EBB0 /* imgProfile.png in Resources */ = {isa = PBXBuildFile; fileRef = 6E6C84E1452C64C134E80BBED9893644 /* imgProfile.png */; };
+		482316C5EDF63A1E2703E703DB0CB1D6 /* JKSolBasicConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7875E48AB6E5E996C1FBAC298526FB2 /* JKSolBasicConfig-dummy.m */; };
 		6357E128872B938C885B57F3CCC2CF0D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		655273E46A48FBECCB24A5F584E12A60 /* Pods-JKSolBasicConfig_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D65385D51B5E3059DCE6341CC2083AD2 /* Pods-JKSolBasicConfig_Example-dummy.m */; };
-		6A020C53DC7EA008C825CB13ECDA7508 /* JKSolBasicConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6848A0E352AD5C946A8C35390BEC4E00 /* JKSolBasicConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8A2A8CC5BB6153F26CF196E96C272B4E /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = D00D3511ABD81EBDD4D2FF6979C3FE1F /* Logger.swift */; };
+		7768E125A2FF3DF6EDA403A4D66D01A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A936B8DE3F28397B1503B6478A277882 /* imgFlower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE8D30DD1CD135FF26CDD0B2CB7AA227 /* imgFlower.jpg */; };
 		AF0E6E0F33F04F13ADF49672D805C3CC /* Pods-JKSolBasicConfig_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B8B9DC5F045423B48D6B0B61A8F9735 /* Pods-JKSolBasicConfig_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B54582700AC80CAB4DBB09A6197B31A8 /* Pods-JKSolBasicConfig_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D738737A27B34E9B97762BA8C708BD8B /* Pods-JKSolBasicConfig_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C9B2E507FCD5772E48176AAE9BD683CB /* imgFlower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 310C4E90B8E8CBEB94BB5395D23B8271 /* imgFlower.jpg */; };
 		D269EC356AA262086328DA56D7A82E28 /* Pods-JKSolBasicConfig_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 92C0BBFED555E2764678EA7E13A9144F /* Pods-JKSolBasicConfig_Tests-dummy.m */; };
-		E4B44F3392212948C75E2E1AD4A8A73E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		D76F0DA217F104F04733A8C577EAC0C9 /* imgFlower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FE8D30DD1CD135FF26CDD0B2CB7AA227 /* imgFlower.jpg */; };
+		FCAC0F1D4C9DB612B4A6971358F80AC9 /* JKSolBasicConfig-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 457C350F1D5A51C0BB8A0577D6069410 /* JKSolBasicConfig-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		270E49501492DD51077A92207D3FD6D7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = ACF7BBF34C662760976DCF60840ACBB9;
-			remoteInfo = "Pods-JKSolBasicConfig_Example";
-		};
-		4C5EAB6CF68B36AF72F7A10F4AF06C78 /* PBXContainerItemProxy */ = {
+		3F60E2E628F76BC1F28668C75AA98E07 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 11C22B1A11F8D150D3331C55DBBDC562;
 			remoteInfo = "JKSolBasicConfig-Resources";
 		};
-		E155104CF6A053ED2B451D37E6A03EB3 /* PBXContainerItemProxy */ = {
+		84312CD2D44920548B0FA2607FD7B87B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACF7BBF34C662760976DCF60840ACBB9;
+			remoteInfo = "Pods-JKSolBasicConfig_Example";
+		};
+		DA98CE615EE778EC2FED29A073B34229 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -47,35 +47,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		05B956C74C044CF5631F1CDD9E8EF847 /* JKSolBasicConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKSolBasicConfig-Info.plist"; sourceTree = "<group>"; };
-		0737C73622228B493B2A6521F5BD0A01 /* JKSolBasicConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKSolBasicConfig.modulemap; sourceTree = "<group>"; };
 		09D53290FC3D9EDBE3FE0AA51EBB7D21 /* Pods-JKSolBasicConfig_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSolBasicConfig_Example-Info.plist"; sourceTree = "<group>"; };
-		10E29850D625CFC85633753C4375B9C3 /* JKSolBasicConfig */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = JKSolBasicConfig; path = JKSolBasicConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BBEA040824689884EF4145EC892707B /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = JKSolBasicConfig/Classes/Logger.swift; sourceTree = "<group>"; };
+		10E29850D625CFC85633753C4375B9C3 /* JKSolBasicConfig.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JKSolBasicConfig.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		21F6D894388CB7D5E1DE9759D4A368CC /* Pods-JKSolBasicConfig_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSolBasicConfig_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		310C4E90B8E8CBEB94BB5395D23B8271 /* imgFlower.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = imgFlower.jpg; path = JKSolBasicConfig/Assets/imgFlower.jpg; sourceTree = "<group>"; };
+		34519C9B1EC71285C1D01784A713BCCB /* JKSolBasicConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSolBasicConfig.release.xcconfig; sourceTree = "<group>"; };
 		3A3AC37BFD60589ADB65358A20A2FF02 /* Pods-JKSolBasicConfig_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSolBasicConfig_Example.modulemap"; sourceTree = "<group>"; };
-		3F831940DCCCCB9543DC8064C68DC961 /* JKSolBasicConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JKSolBasicConfig.podspec; sourceTree = "<group>"; tabWidth = 2; };
-		41DC6FB102B874D04BD1315561E1824C /* JKSolBasicConfig.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSolBasicConfig.release.xcconfig; sourceTree = "<group>"; };
-		4C79B95EE26B81508E6037884960A0B3 /* JKSolBasicConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSolBasicConfig-prefix.pch"; sourceTree = "<group>"; };
-		4F3A18997FA1A4888FACE7621BA87189 /* JKSolBasicConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSolBasicConfig-dummy.m"; sourceTree = "<group>"; };
-		51605939A7ED0A03904DC12EE1559109 /* JKSolBasicConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSolBasicConfig.debug.xcconfig; sourceTree = "<group>"; };
-		6848A0E352AD5C946A8C35390BEC4E00 /* JKSolBasicConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSolBasicConfig-umbrella.h"; sourceTree = "<group>"; };
-		694DA8BA1DECE904915E5E5170452186 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		6CEA7C5D1080310BA23DF4CA9CD62CA4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		3EAC7EA6E044432A1021AEEEC2F39E06 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		40CABDF4BD55D1879F98B768289F875F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		457C350F1D5A51C0BB8A0577D6069410 /* JKSolBasicConfig-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSolBasicConfig-umbrella.h"; sourceTree = "<group>"; };
+		458F2EF6BB5DF2E13CA9BDB8855100F6 /* JKSolBasicConfig.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = JKSolBasicConfig.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		6B53C13B66FEF0DAB82923FB2FC486D2 /* JKSolBasicConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JKSolBasicConfig-Info.plist"; sourceTree = "<group>"; };
 		6D094CF9397724A755F18830FF4732AD /* Pods-JKSolBasicConfig_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSolBasicConfig_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6E6C84E1452C64C134E80BBED9893644 /* imgProfile.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = imgProfile.png; path = JKSolBasicConfig/Assets/imgProfile.png; sourceTree = "<group>"; };
 		6E8D51695B7412775BEF895C7902B57B /* Pods-JKSolBasicConfig_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JKSolBasicConfig_Tests.modulemap"; sourceTree = "<group>"; };
+		7068A3968C456D6B7B66FF2D4943B475 /* ResourceBundle-Resources-JKSolBasicConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resources-JKSolBasicConfig-Info.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		80EF35424A68D2E23956559406F4D850 /* ResourceBundle-Resources-JKSolBasicConfig-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Resources-JKSolBasicConfig-Info.plist"; sourceTree = "<group>"; };
+		8F85E6CA2039DBF679B0B4D77968CEFC /* JKSolBasicConfig.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JKSolBasicConfig.modulemap; sourceTree = "<group>"; };
 		92C0BBFED555E2764678EA7E13A9144F /* Pods-JKSolBasicConfig_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSolBasicConfig_Tests-dummy.m"; sourceTree = "<group>"; };
 		9B8B9DC5F045423B48D6B0B61A8F9735 /* Pods-JKSolBasicConfig_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSolBasicConfig_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9F52CBBF3E73F3C037677B4DFE775025 /* Pods-JKSolBasicConfig_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-JKSolBasicConfig_Tests-Info.plist"; sourceTree = "<group>"; };
-		A7C31F1D4E29943C36C6D4D5AE1454F6 /* Pods-JKSolBasicConfig_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JKSolBasicConfig_Example"; path = Pods_JKSolBasicConfig_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7C31F1D4E29943C36C6D4D5AE1454F6 /* Pods_JKSolBasicConfig_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKSolBasicConfig_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAD6FF321A6BCB35B5D50A346BA212D6 /* JKSolBasicConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JKSolBasicConfig-prefix.pch"; sourceTree = "<group>"; };
 		AE13853264407A8FDFBF2996FE9E3BF3 /* Pods-JKSolBasicConfig_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSolBasicConfig_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B3D7E1111684BF730FA406F9E2B0EFAF /* Pods-JKSolBasicConfig_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSolBasicConfig_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		B7E8016E0FEF65F099F1F6C59887C953 /* Pods-JKSolBasicConfig_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-JKSolBasicConfig_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D00D3511ABD81EBDD4D2FF6979C3FE1F /* Logger.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Logger.swift; path = JKSolBasicConfig/Classes/Logger.swift; sourceTree = "<group>"; };
 		D65385D51B5E3059DCE6341CC2083AD2 /* Pods-JKSolBasicConfig_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JKSolBasicConfig_Example-dummy.m"; sourceTree = "<group>"; };
 		D738737A27B34E9B97762BA8C708BD8B /* Pods-JKSolBasicConfig_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JKSolBasicConfig_Example-umbrella.h"; sourceTree = "<group>"; };
 		D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* JKSolBasicConfig-Resources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "JKSolBasicConfig-Resources"; path = Resources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -83,30 +79,25 @@
 		DADABA251680F14BB3A2E7702E916F04 /* Pods-JKSolBasicConfig_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSolBasicConfig_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E35FA169872A93A42C95DFEEAF220060 /* Pods-JKSolBasicConfig_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JKSolBasicConfig_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		E63838A12508280D92444D194C0D3A1A /* Pods-JKSolBasicConfig_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-JKSolBasicConfig_Example-frameworks.sh"; sourceTree = "<group>"; };
-		F013B41F38119B7DE065EA0FD4AC1AC7 /* Pods-JKSolBasicConfig_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-JKSolBasicConfig_Tests"; path = Pods_JKSolBasicConfig_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E7875E48AB6E5E996C1FBAC298526FB2 /* JKSolBasicConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JKSolBasicConfig-dummy.m"; sourceTree = "<group>"; };
+		F013B41F38119B7DE065EA0FD4AC1AC7 /* Pods_JKSolBasicConfig_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JKSolBasicConfig_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F62E2BC737C2C413C8AD841F8E3D7111 /* JKSolBasicConfig.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JKSolBasicConfig.debug.xcconfig; sourceTree = "<group>"; };
+		FE8D30DD1CD135FF26CDD0B2CB7AA227 /* imgFlower.jpg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.jpeg; name = imgFlower.jpg; path = JKSolBasicConfig/Assets/imgFlower.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		05DFCEE200923C65A185A49EF83890C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		188979727E098BBFEE6D9C014DF7159A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				6357E128872B938C885B57F3CCC2CF0D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		5B03D12DE98CE434846729DE331A28EC /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E4B44F3392212948C75E2E1AD4A8A73E /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		83E0B64A2A8D63AB9E7EB3F5B0DDF984 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -118,16 +109,24 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FBA5A65B2092DC5117A2B819C2BA5B0C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7768E125A2FF3DF6EDA403A4D66D01A0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		24F76B3031E28D34D25A954D961F34E4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				10E29850D625CFC85633753C4375B9C3 /* JKSolBasicConfig */,
+				10E29850D625CFC85633753C4375B9C3 /* JKSolBasicConfig.framework */,
 				D8EACE35BFB81B963FDD4ED7D5CF7CE0 /* JKSolBasicConfig-Resources */,
-				A7C31F1D4E29943C36C6D4D5AE1454F6 /* Pods-JKSolBasicConfig_Example */,
-				F013B41F38119B7DE065EA0FD4AC1AC7 /* Pods-JKSolBasicConfig_Tests */,
+				A7C31F1D4E29943C36C6D4D5AE1454F6 /* Pods_JKSolBasicConfig_Example.framework */,
+				F013B41F38119B7DE065EA0FD4AC1AC7 /* Pods_JKSolBasicConfig_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -148,30 +147,24 @@
 			path = "Target Support Files/Pods-JKSolBasicConfig_Tests";
 			sourceTree = "<group>";
 		};
-		3E31883E566300A7B93660C7FEC14FBF /* Support Files */ = {
+		4B1AC2959F320BE29D179F22E0EB0C1E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0737C73622228B493B2A6521F5BD0A01 /* JKSolBasicConfig.modulemap */,
-				4F3A18997FA1A4888FACE7621BA87189 /* JKSolBasicConfig-dummy.m */,
-				05B956C74C044CF5631F1CDD9E8EF847 /* JKSolBasicConfig-Info.plist */,
-				4C79B95EE26B81508E6037884960A0B3 /* JKSolBasicConfig-prefix.pch */,
-				6848A0E352AD5C946A8C35390BEC4E00 /* JKSolBasicConfig-umbrella.h */,
-				51605939A7ED0A03904DC12EE1559109 /* JKSolBasicConfig.debug.xcconfig */,
-				41DC6FB102B874D04BD1315561E1824C /* JKSolBasicConfig.release.xcconfig */,
-				80EF35424A68D2E23956559406F4D850 /* ResourceBundle-Resources-JKSolBasicConfig-Info.plist */,
+				5013982A1DE6E3F9C44F3C98A483AF44 /* JKSolBasicConfig */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/JKSolBasicConfig";
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		437D761BED5873983B18F8D97EFC6048 /* Pod */ = {
+		5013982A1DE6E3F9C44F3C98A483AF44 /* JKSolBasicConfig */ = {
 			isa = PBXGroup;
 			children = (
-				3F831940DCCCCB9543DC8064C68DC961 /* JKSolBasicConfig.podspec */,
-				6CEA7C5D1080310BA23DF4CA9CD62CA4 /* LICENSE */,
-				694DA8BA1DECE904915E5E5170452186 /* README.md */,
+				FE8D30DD1CD135FF26CDD0B2CB7AA227 /* imgFlower.jpg */,
+				0BBEA040824689884EF4145EC892707B /* Logger.swift */,
+				5CD0E118BBBEC5EE78F91AD869A49E75 /* Pod */,
+				6BB3EBEB243C07F74E3C16B76FE0D7E1 /* Support Files */,
 			);
-			name = Pod;
+			name = JKSolBasicConfig;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
@@ -182,12 +175,30 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		6010C6FFE315169BE1E1B8C9FD7A4B35 /* Development Pods */ = {
+		5CD0E118BBBEC5EE78F91AD869A49E75 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C07767D65B87B0909ADF8E818C709EAD /* JKSolBasicConfig */,
+				458F2EF6BB5DF2E13CA9BDB8855100F6 /* JKSolBasicConfig.podspec */,
+				3EAC7EA6E044432A1021AEEEC2F39E06 /* LICENSE */,
+				40CABDF4BD55D1879F98B768289F875F /* README.md */,
 			);
-			name = "Development Pods";
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6BB3EBEB243C07F74E3C16B76FE0D7E1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F85E6CA2039DBF679B0B4D77968CEFC /* JKSolBasicConfig.modulemap */,
+				E7875E48AB6E5E996C1FBAC298526FB2 /* JKSolBasicConfig-dummy.m */,
+				6B53C13B66FEF0DAB82923FB2FC486D2 /* JKSolBasicConfig-Info.plist */,
+				AAD6FF321A6BCB35B5D50A346BA212D6 /* JKSolBasicConfig-prefix.pch */,
+				457C350F1D5A51C0BB8A0577D6069410 /* JKSolBasicConfig-umbrella.h */,
+				F62E2BC737C2C413C8AD841F8E3D7111 /* JKSolBasicConfig.debug.xcconfig */,
+				34519C9B1EC71285C1D01784A713BCCB /* JKSolBasicConfig.release.xcconfig */,
+				7068A3968C456D6B7B66FF2D4943B475 /* ResourceBundle-Resources-JKSolBasicConfig-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/JKSolBasicConfig";
 			sourceTree = "<group>";
 		};
 		73345F7094CEE046D3185CC5C60F31D9 /* Pods-JKSolBasicConfig_Example */ = {
@@ -207,24 +218,11 @@
 			path = "Target Support Files/Pods-JKSolBasicConfig_Example";
 			sourceTree = "<group>";
 		};
-		C07767D65B87B0909ADF8E818C709EAD /* JKSolBasicConfig */ = {
-			isa = PBXGroup;
-			children = (
-				310C4E90B8E8CBEB94BB5395D23B8271 /* imgFlower.jpg */,
-				6E6C84E1452C64C134E80BBED9893644 /* imgProfile.png */,
-				D00D3511ABD81EBDD4D2FF6979C3FE1F /* Logger.swift */,
-				437D761BED5873983B18F8D97EFC6048 /* Pod */,
-				3E31883E566300A7B93660C7FEC14FBF /* Support Files */,
-			);
-			name = JKSolBasicConfig;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				6010C6FFE315169BE1E1B8C9FD7A4B35 /* Development Pods */,
+				4B1AC2959F320BE29D179F22E0EB0C1E /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				24F76B3031E28D34D25A954D961F34E4 /* Products */,
 				E46B954C45DAA546B072A2B45F1CA088 /* Targets Support Files */,
@@ -251,6 +249,14 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0591C616D85603DF006DA5834F03F60A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCAC0F1D4C9DB612B4A6971358F80AC9 /* JKSolBasicConfig-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		0C8178EE8BDFC79122B5847A34511F2D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -267,24 +273,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E30D874D4095DC5FAA9A10AC6180C790 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6A020C53DC7EA008C825CB13ECDA7508 /* JKSolBasicConfig-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		11C22B1A11F8D150D3331C55DBBDC562 /* JKSolBasicConfig-Resources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAAF25A3E1F6DCD6CB6FF09502934216 /* Build configuration list for PBXNativeTarget "JKSolBasicConfig-Resources" */;
+			buildConfigurationList = 4081892A3A07BA395B3BA5DB2B2AA265 /* Build configuration list for PBXNativeTarget "JKSolBasicConfig-Resources" */;
 			buildPhases = (
-				A7A0894F8A3EFAC71757286169F8C550 /* Sources */,
-				83E0B64A2A8D63AB9E7EB3F5B0DDF984 /* Frameworks */,
-				EB9730564315C4881519243D91847184 /* Resources */,
+				969262C106C74F3BCAA7DC86EE5A1209 /* Sources */,
+				05DFCEE200923C65A185A49EF83890C8 /* Frameworks */,
+				4CB9520FFC8DCA65D4B16AD103E39019 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -307,30 +305,30 @@
 			buildRules = (
 			);
 			dependencies = (
-				69EE7D139C8F28F65DB4DBD0EB4DBAE6 /* PBXTargetDependency */,
+				7D453F521D67A26A665103B4B46F1D1A /* PBXTargetDependency */,
 			);
 			name = "Pods-JKSolBasicConfig_Tests";
 			productName = Pods_JKSolBasicConfig_Tests;
-			productReference = F013B41F38119B7DE065EA0FD4AC1AC7 /* Pods-JKSolBasicConfig_Tests */;
+			productReference = F013B41F38119B7DE065EA0FD4AC1AC7 /* Pods_JKSolBasicConfig_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		6B269FB576980ECFC0D3C11833A0ACD0 /* JKSolBasicConfig */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 16FAB09A05488B65C9EB221B60A1A1DE /* Build configuration list for PBXNativeTarget "JKSolBasicConfig" */;
+			buildConfigurationList = 059C668347A786205E1A18F1A67E6B0E /* Build configuration list for PBXNativeTarget "JKSolBasicConfig" */;
 			buildPhases = (
-				E30D874D4095DC5FAA9A10AC6180C790 /* Headers */,
-				330B08C466BFBAC9AD092058C4266948 /* Sources */,
-				5B03D12DE98CE434846729DE331A28EC /* Frameworks */,
-				75269ECC5214841EFC604D7EC65E993E /* Resources */,
+				0591C616D85603DF006DA5834F03F60A /* Headers */,
+				41154F3704DE2290BBA56B77E5B71596 /* Sources */,
+				FBA5A65B2092DC5117A2B819C2BA5B0C /* Frameworks */,
+				43B7BC12ACB4D81B81893AEEFD362C43 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E30AAE1530FAF7CA9E6C927738D39F0D /* PBXTargetDependency */,
+				0145AE487C9C7C82987930D4971189D5 /* PBXTargetDependency */,
 			);
 			name = JKSolBasicConfig;
 			productName = JKSolBasicConfig;
-			productReference = 10E29850D625CFC85633753C4375B9C3 /* JKSolBasicConfig */;
+			productReference = 10E29850D625CFC85633753C4375B9C3 /* JKSolBasicConfig.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		ACF7BBF34C662760976DCF60840ACBB9 /* Pods-JKSolBasicConfig_Example */ = {
@@ -345,11 +343,11 @@
 			buildRules = (
 			);
 			dependencies = (
-				87A04BCAC759722F7EEBA176B5F89FB4 /* PBXTargetDependency */,
+				013DF56B89D05ADC6C111E7CEF016143 /* PBXTargetDependency */,
 			);
 			name = "Pods-JKSolBasicConfig_Example";
 			productName = Pods_JKSolBasicConfig_Example;
-			productReference = A7C31F1D4E29943C36C6D4D5AE1454F6 /* Pods-JKSolBasicConfig_Example */;
+			productReference = A7C31F1D4E29943C36C6D4D5AE1454F6 /* Pods_JKSolBasicConfig_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -383,6 +381,23 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		43B7BC12ACB4D81B81893AEEFD362C43 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A936B8DE3F28397B1503B6478A277882 /* imgFlower.jpg in Resources */,
+				232BD7C45520BFC2EEC0371AD68C4B01 /* JKSolBasicConfig-Resources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB9520FFC8DCA65D4B16AD103E39019 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D76F0DA217F104F04733A8C577EAC0C9 /* imgFlower.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		69897D86D06F6EF5B9F9C4B6DAF85C85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -390,27 +405,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		75269ECC5214841EFC604D7EC65E993E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				43E94CD29052CA24EAB369487F4FD3ED /* JKSolBasicConfig-Resources in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		E18D37911A481DDF51BED996CFDE7400 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		EB9730564315C4881519243D91847184 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C9B2E507FCD5772E48176AAE9BD683CB /* imgFlower.jpg in Resources */,
-				5C8B5171474FF7AFA8151D09C066EBB0 /* imgProfile.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,16 +423,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		330B08C466BFBAC9AD092058C4266948 /* Sources */ = {
+		41154F3704DE2290BBA56B77E5B71596 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				16E37D5B926BEFBC6BC804FD84545242 /* JKSolBasicConfig-dummy.m in Sources */,
-				8A2A8CC5BB6153F26CF196E96C272B4E /* Logger.swift in Sources */,
+				482316C5EDF63A1E2703E703DB0CB1D6 /* JKSolBasicConfig-dummy.m in Sources */,
+				02FEC06CB8E53D9986D73F1BD292B0E8 /* Logger.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A7A0894F8A3EFAC71757286169F8C550 /* Sources */ = {
+		969262C106C74F3BCAA7DC86EE5A1209 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -452,32 +450,48 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		69EE7D139C8F28F65DB4DBD0EB4DBAE6 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-JKSolBasicConfig_Example";
-			target = ACF7BBF34C662760976DCF60840ACBB9 /* Pods-JKSolBasicConfig_Example */;
-			targetProxy = 270E49501492DD51077A92207D3FD6D7 /* PBXContainerItemProxy */;
-		};
-		87A04BCAC759722F7EEBA176B5F89FB4 /* PBXTargetDependency */ = {
+		013DF56B89D05ADC6C111E7CEF016143 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = JKSolBasicConfig;
 			target = 6B269FB576980ECFC0D3C11833A0ACD0 /* JKSolBasicConfig */;
-			targetProxy = E155104CF6A053ED2B451D37E6A03EB3 /* PBXContainerItemProxy */;
+			targetProxy = DA98CE615EE778EC2FED29A073B34229 /* PBXContainerItemProxy */;
 		};
-		E30AAE1530FAF7CA9E6C927738D39F0D /* PBXTargetDependency */ = {
+		0145AE487C9C7C82987930D4971189D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "JKSolBasicConfig-Resources";
 			target = 11C22B1A11F8D150D3331C55DBBDC562 /* JKSolBasicConfig-Resources */;
-			targetProxy = 4C5EAB6CF68B36AF72F7A10F4AF06C78 /* PBXContainerItemProxy */;
+			targetProxy = 3F60E2E628F76BC1F28668C75AA98E07 /* PBXContainerItemProxy */;
+		};
+		7D453F521D67A26A665103B4B46F1D1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JKSolBasicConfig_Example";
+			target = ACF7BBF34C662760976DCF60840ACBB9 /* Pods-JKSolBasicConfig_Example */;
+			targetProxy = 84312CD2D44920548B0FA2607FD7B87B /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		156DD94170C814569AFE4524CD42A1CC /* Debug */ = {
+		425AA2FF2251A8D6D9F61054D776D8A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51605939A7ED0A03904DC12EE1559109 /* JKSolBasicConfig.debug.xcconfig */;
+			baseConfigurationReference = F62E2BC737C2C413C8AD841F8E3D7111 /* JKSolBasicConfig.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JKSolBasicConfig";
+				IBSC_MODULE = JKSolBasicConfig;
+				INFOPLIST_FILE = "Target Support Files/JKSolBasicConfig/ResourceBundle-Resources-JKSolBasicConfig-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = Resources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4718836478CC2E849730F56BA24A0C0C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F62E2BC737C2C413C8AD841F8E3D7111 /* JKSolBasicConfig.debug.xcconfig */;
+			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -489,7 +503,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/JKSolBasicConfig/JKSolBasicConfig-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/JKSolBasicConfig/JKSolBasicConfig-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/JKSolBasicConfig/JKSolBasicConfig.modulemap";
 				PRODUCT_MODULE_NAME = JKSolBasicConfig;
@@ -497,27 +511,10 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		4790D18F422A1CF25B4AA3DB3FDEC21E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51605939A7ED0A03904DC12EE1559109 /* JKSolBasicConfig.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JKSolBasicConfig";
-				IBSC_MODULE = JKSolBasicConfig;
-				INFOPLIST_FILE = "Target Support Files/JKSolBasicConfig/ResourceBundle-Resources-JKSolBasicConfig-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				PRODUCT_NAME = Resources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
 			};
 			name = Debug;
 		};
@@ -537,7 +534,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JKSolBasicConfig_Example/Pods-JKSolBasicConfig_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JKSolBasicConfig_Example/Pods-JKSolBasicConfig_Example.modulemap";
@@ -571,7 +568,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JKSolBasicConfig_Tests/Pods-JKSolBasicConfig_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JKSolBasicConfig_Tests/Pods-JKSolBasicConfig_Tests.modulemap";
@@ -588,15 +585,15 @@
 			};
 			name = Debug;
 		};
-		73EDCD5661BE0CFE2D4B8F3FF840EE83 /* Release */ = {
+		756CCE327B4F9C3AA03E3210B3580D48 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41DC6FB102B874D04BD1315561E1824C /* JKSolBasicConfig.release.xcconfig */;
+			baseConfigurationReference = 34519C9B1EC71285C1D01784A713BCCB /* JKSolBasicConfig.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/JKSolBasicConfig";
 				IBSC_MODULE = JKSolBasicConfig;
 				INFOPLIST_FILE = "Target Support Files/JKSolBasicConfig/ResourceBundle-Resources-JKSolBasicConfig-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				PRODUCT_NAME = Resources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -682,7 +679,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JKSolBasicConfig_Tests/Pods-JKSolBasicConfig_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JKSolBasicConfig_Tests/Pods-JKSolBasicConfig_Tests.modulemap";
@@ -693,6 +690,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A0A59FD0F54D6FA74F1040378B97E080 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34519C9B1EC71285C1D01784A713BCCB /* JKSolBasicConfig.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JKSolBasicConfig/JKSolBasicConfig-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JKSolBasicConfig/JKSolBasicConfig-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/JKSolBasicConfig/JKSolBasicConfig.modulemap";
+				PRODUCT_MODULE_NAME = JKSolBasicConfig;
+				PRODUCT_NAME = JKSolBasicConfig;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -766,38 +794,6 @@
 			};
 			name = Debug;
 		};
-		D5E3C429A17BC6071C3E5B219B570E63 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 41DC6FB102B874D04BD1315561E1824C /* JKSolBasicConfig.release.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/JKSolBasicConfig/JKSolBasicConfig-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/JKSolBasicConfig/JKSolBasicConfig-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/JKSolBasicConfig/JKSolBasicConfig.modulemap";
-				PRODUCT_MODULE_NAME = JKSolBasicConfig;
-				PRODUCT_NAME = JKSolBasicConfig;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DE91DE206EF5B3023F224D234FFE6ED5 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E35FA169872A93A42C95DFEEAF220060 /* Pods-JKSolBasicConfig_Example.debug.xcconfig */;
@@ -814,7 +810,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-JKSolBasicConfig_Example/Pods-JKSolBasicConfig_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-JKSolBasicConfig_Example/Pods-JKSolBasicConfig_Example.modulemap";
@@ -843,11 +839,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		16FAB09A05488B65C9EB221B60A1A1DE /* Build configuration list for PBXNativeTarget "JKSolBasicConfig" */ = {
+		059C668347A786205E1A18F1A67E6B0E /* Build configuration list for PBXNativeTarget "JKSolBasicConfig" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				156DD94170C814569AFE4524CD42A1CC /* Debug */,
-				D5E3C429A17BC6071C3E5B219B570E63 /* Release */,
+				4718836478CC2E849730F56BA24A0C0C /* Debug */,
+				A0A59FD0F54D6FA74F1040378B97E080 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4081892A3A07BA395B3BA5DB2B2AA265 /* Build configuration list for PBXNativeTarget "JKSolBasicConfig-Resources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				425AA2FF2251A8D6D9F61054D776D8A0 /* Debug */,
+				756CCE327B4F9C3AA03E3210B3580D48 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -866,15 +871,6 @@
 			buildConfigurations = (
 				598F7CED031D2E23BC71B0B87FC9A49E /* Debug */,
 				8CE912D04C14A21C73593C3809FDB445 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		AAAF25A3E1F6DCD6CB6FF09502934216 /* Build configuration list for PBXNativeTarget "JKSolBasicConfig-Resources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				4790D18F422A1CF25B4AA3DB3FDEC21E /* Debug */,
-				73EDCD5661BE0CFE2D4B8F3FF840EE83 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

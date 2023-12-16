@@ -21,22 +21,19 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/pratikjksol/JKSolBasicConfig'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'jksol' => 'jksol.com' }
-  s.source           = { :git => 'https://github.com/pratikjksol/JKSolBasicConfig', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.homepage                = 'https://github.com/pratikjksol/JKSolBasicConfig'
+  s.license                 = { :type => 'MIT', :file => 'LICENSE' }
+  s.author                  = { 'jksol' => 'jksol.com' }
+  s.source                  = { :git => 'https://github.com/pratikjksol/JKSolBasicConfig', :tag => '0.1.0'}
+  s.swift_versions          = '5.0'
+  s.ios.deployment_target   = '12.0'
+  s.platform                = :ios
 
-  s.swift_versions = '5.0'
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'JKSolBasicConfig/Classes/**/*'
+  s.source_files            = 'JKSolBasicConfig/Classes/**/*'
+  s.resources               = ['JKSolBasicConfig/Assets/*.jpg']
   
   s.resource_bundles = {
-#    'Resources' => ['JKSolBasicConfig/Assets/imgFlower.jpg']
-    'Resources' => ['JKSolBasicConfig/Assets/*.*']
-#    'JKSolBasicConfig' => ['JKSolBasicConfig/Assets/*.png']
+    'Resources' => ['JKSolBasicConfig/Assets/*.jpg']
   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
