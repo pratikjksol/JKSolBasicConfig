@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'JKSolBasicConfig_Example' do
+  pod 'JKSolBasicConfig', :path => '../'
+
+  target 'JKSolBasicConfig_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
