@@ -23,8 +23,8 @@ TODO: Add long description of the pod here.
 
   s.homepage                = 'https://github.com/pratikjksol/JKSolBasicConfig'
   s.license                 = { :type => 'MIT', :file => 'LICENSE' }
-  s.author                  = { 'jksol' => 'jksol.com' }
-  s.source                  = { :git => 'https://github.com/pratikjksol/JKSolBasicConfig', :tag => '1.0.0'}
+  s.author                  = { 'jksol' => 'pratikdholariya@jksol.com' }
+  s.source                  = { :git => 'https://github.com/pratikjksol/JKSolBasicConfig.git', :tag => s.version.to_s}
   s.swift_versions          = '5.0'
   s.ios.deployment_target   = '12.0'
   s.platform                = :ios
