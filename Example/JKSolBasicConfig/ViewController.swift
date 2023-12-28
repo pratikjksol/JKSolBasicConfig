@@ -31,7 +31,7 @@ class ViewController: UIViewController {
         let path = framworkBundle.path(forResource: "Resources", ofType: "bundle")
         let resourceBundle = Bundle(url: URL.init(fileURLWithPath: path!))
         let image = UIImage.init(named: "imgFlower.jpg", in: resourceBundle, compatibleWith: nil)
-        print(image)
+        print(image!)
     }
 
     override func didReceiveMemoryWarning() {

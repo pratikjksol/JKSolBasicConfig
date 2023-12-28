@@ -9,23 +9,32 @@
     "file": "LICENSE"
   },
   "authors": {
-    "jksol": "jksol.com"
+    "jksol": "pratikdholariya@jksol.com"
   },
   "source": {
-    "git": "https://github.com/pratikjksol/JKSolBasicConfig",
+    "git": "https://github.com/pratikjksol/JKSolBasicConfig.git",
     "tag": "1.0.0"
   },
   "swift_versions": "5.0",
   "platforms": {
     "ios": null
   },
-  "source_files": "JKSolBasicConfig/Classes/**/*",
+  "source_files": [
+    "lib/*.swift",
+    "JKSolBasicConfig/Classes/**/*"
+  ],
   "resources": [
     "JKSolBasicConfig/Assets/*.jpg"
   ],
   "resource_bundles": {
     "Resources": [
       "JKSolBasicConfig/Assets/*.jpg"
+    ]
+  },
+  "static_framework": true,
+  "dependencies": {
+    "Google-Mobile-Ads-SDK": [
+
     ]
   },
   "swift_version": "5.0"
